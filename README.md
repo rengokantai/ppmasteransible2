@@ -13,3 +13,13 @@ check doc
 ```
 ansible-doc wait_for
 ```
+
+#### 11:48
+```
+- name: test
+  wait_for: 
+    path: /tmp/foo
+    state: present
+    msg:
+  
+```
