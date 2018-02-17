@@ -23,3 +23,9 @@ ansible-doc wait_for
     msg:
   
 ```
+assemble:
+```
+- assemble:
+    src: /etc/someapp/fragments
+    dest: /etc/someapp/someapp.conf
+```
